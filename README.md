@@ -35,7 +35,7 @@ Balanced Accuracy Score of the test set is 94%. While that might sound pretty go
  'reg_lambda': 0.27645458510111576
 }
 ```
-### Classification Report (test data)
+### Classification Report:
 | Class            | Precision | Recall | F1-Score | Support |
 |------------------|-----------|--------|----------|---------|
 | **Non-Stroke (0)** | 1.00      | 0.88   | 0.93     | 972     |
