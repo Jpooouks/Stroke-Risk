@@ -19,7 +19,7 @@ The objectives are:
 - **Optuna** for hyperparameter optimization
 
 ## Results
-
+Balanced Accuracy Score of the test set is 94%. While that might sound pretty good, we only get the precision of circa. 30% for the positive class. Attempting to reduce the number of False-Positives is a constant theme in this project.
 ### Best Model Hyperparameters (Optimized with Optuna):
 ```python
 {
@@ -34,6 +34,7 @@ The objectives are:
  'reg_alpha': 0.1204662169594321,
  'reg_lambda': 0.27645458510111576
 }
+```
 ### Classification Report (test data)
 | Class            | Precision | Recall | F1-Score | Support |
 |------------------|-----------|--------|----------|---------|
